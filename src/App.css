@@ -1,0 +1,208 @@
+/* Reset some default styles */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f6f2;
+  padding: 20px 30px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Header ul {
+  list-style: none;
+  display: flex;
+}
+
+.Header ul li {
+  margin-right: 20px;
+}
+
+.Header ul li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.Header ul li a:hover {
+  color: orange;
+}
+
+.Header-right {
+  display: flex;
+  align-items: center;
+}
+
+.Search, .SignIn {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.Search:hover, .SignIn:hover {
+  color: orange;
+}
+
+.Main-background {
+  background-image: url('./dance.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  top:10px;
+  padding: 100px 0;
+}
+
+.Main-background h1 {
+  font-size: 3rem;
+}
+
+.Main-background p {
+  font-size: 1.5rem;
+}
+
+/* ... other styles ... */
+
+.Blocks {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.Block {
+  flex: 1;
+  text-align: left;
+  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 25%;
+  min-width: 250px;
+  height: 350px;
+}
+
+.Block img {
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+  max-width: 100%;
+  max-height: 60%; /* Adjust image max-height as needed */
+  object-fit: contain; /* Keep image centered and fit within */
+  margin-bottom: 10px;
+}
+
+
+.Block-text {
+  padding: 10px;
+}
+
+.Block h3 {
+  font-size: 1.3rem; /* Slightly larger heading font size */
+  font-weight: bold;
+  margin-bottom: 5px; /* Reduce margin bottom for tighter spacing */
+}
+
+.Block p {
+  font-size: 0.9rem; /* Smaller font size */
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: 5px; /* Reduce margin top for tighter spacing */
+  max-height: 45%;
+  overflow: hidden;
+}
+
+.Block:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* ... other styles ... */
+/* ... other styles ... */
+
+.Welcome {
+  padding: 100px 30px; /* Adjust padding as needed */
+  text-align: left;
+  color: white;
+}
+
+.Welcome h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.Welcome p {
+  font-size: 1.5rem;
+}
+
+.LifeAtEkalakar {
+  text-align: left;
+  margin: 20px 0 20px 30px; /* Adjust the left margin as needed */
+}
+
+.LifeAtEkalakar h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+
+/* ... other styles ... */
+/* ... Other styles ... */
+
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f6f2;
+  padding: 20px 30px;
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Footer-left {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.Footer-lang {
+  font-size: 0.9rem; /* Reduced font size for language */
+  margin-right: 10px;
+}
+
+.Footer-left span {
+  font-size: 0.9rem; /* Reduced font size for other options */
+  margin-right: 20px;
+}
+
+.Footer-right {
+  display: flex;
+  align-items: center;
+}
+
+.Footer-right a {
+  margin-right: 10px;
+}
+
+.Footer-privacy {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.Footer-privacy p {
+  font-size: 0.7rem; /* Reduced font size for privacy choices text */
+  margin-left: 5px;
+}
+
+.Footer-right span {
+  font-size: 0.7rem; /* Reduced font size for other options */
+  margin-right: 20px;
+}
+
+
